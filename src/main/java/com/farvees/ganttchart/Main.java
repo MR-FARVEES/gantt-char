@@ -14,6 +14,8 @@ public class Main {
         ganttChart.setPreferredSize(frame.getSize());
         frame.add(ganttChart);
 
+        frame.pack();
+
         frame.setVisible(true);
     }
 }
